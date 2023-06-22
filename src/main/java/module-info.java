@@ -4,6 +4,7 @@ module sample.contactsapp {
     requires java.xml;
 
 
+    opens datamodel;
     opens sample.contactsapp to javafx.fxml;
     exports sample.contactsapp;
 }
